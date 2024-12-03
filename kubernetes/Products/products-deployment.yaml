@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: products
-        image: jennyffernm/app-node-18:latest
+        image: guilhermelimasoares9/app-node-18-products
         ports:
         - containerPort: 3000
         envFrom:
